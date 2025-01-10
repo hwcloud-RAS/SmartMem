@@ -1,4 +1,0 @@
-﻿,BankId,BankgroupId,Capacity,ChannelId,ColumnId,CpuId,DimmId,FrequencyMHz,LogTime,Manufacturer,MaxSpeedMHz,McaBank,Model,PN,RankId,RetryRdErrLogParity,RowId,deviceID,error_type_full_name,memory_type,region
-0,1,3,16,1,304,0,0,3000,1710666226,D,4000,O,I,CB,1,4096,23376,5,CE.SCRUB,DDR4,P
-1,1,3,16,1,304,0,0,3000,1711861945,D,4000,O,I,CB,1,4096,23376,5,CE.SCRUB,DDR4,P
-2,1,3,16,1,304,0,0,3000,1713826340,D,4000,O,I,CB,1,4096,23376,5,CE.SCRUB,DDR4,P
