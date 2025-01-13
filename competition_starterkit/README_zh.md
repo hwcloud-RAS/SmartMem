@@ -7,7 +7,7 @@
 本仓库提供了 [The Web Conference 2025 Competition: SmartMem (Memory Failure Prediction for Cloud Service Reliability)](https://www.codabench.org/competitions/3586/) 的资源，包括：
 
 1. **入门工具包**：一个 Jupyter notebook，提供了数据处理、特征工程和构建机器学习模型的分步指南。旨在帮助参赛者快速搭建工作流程并优化预测性能。
-2. **基线实现**：一个强大的管道，用于特征提取、数据准备和模型训练，能够高效处理大规模数据。
+2. **基线实现**：主要通过对内存日志数据进行分析，提取时间、空间和奇偶校验等特征，并使用 LightGBM 模型进行训练和预测。程序支持多进程处理，能够高效地处理大规模数据。
 
 竞赛主页：[https://hwcloud-ras.github.io/SmartMem.github.io/](https://hwcloud-ras.github.io/SmartMem.github.io/)
 
