@@ -106,9 +106,5 @@ jupyter notebook starterkit_notebook.ipynb
 - 根据需要扩展入门工具包或基线程序以提高性能。
 - 根据本地环境更新 `Config` 类中的路径和配置。
 
-## 许可证
-
-本项目基于 MIT 许可证发布。详细信息请参阅 LICENSE 文件。
-
 ---
 欢迎通过提交 PR 或问题来贡献代码！

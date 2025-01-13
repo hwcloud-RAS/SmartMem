@@ -104,7 +104,3 @@ Compress the generated `submission.csv` file into a **zip** file and submit it t
 
 - Extend the starter kit or baseline as needed for better performance.
 - Update paths and configurations in the `Config` class based on your local environment.
-
-## License
-
-This project is provided under the MIT License. See the LICENSE file for details.
