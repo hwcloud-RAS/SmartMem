@@ -53,17 +53,17 @@ class Config(object):
     WORKER_NUM: int = field(default=16, init=False)
 
     # Path configurations: raw dataset path, generated feature path, processed training set feature path, processed test set feature path, and ticket path
-    data_path: str = "D:/competition_data/type_A"
-    feature_path: str = "D:/release_features/combined_sn_feature"
-    train_data_path: str = "D:/release_features/train_data/type_A"
-    test_data_path: str = "D:/release_features/test_data/type_A"
-    ticket_path: str = "D:/competition_data/ticket.csv"
+    data_path: str = "To be filled"
+    feature_path: str = "To be filled"
+    train_data_path: str = "To be filled"
+    test_data_path: str = "To be filled"
+    ticket_path: str = "To be filled"
 
     # Date range configurations
     train_date_range: tuple = ("2024-01-01", "2024-06-01")
     test_data_range: tuple = ("2024-06-01", "2024-08-01")
 
-    # Time interval for feature extraction (in seconds)
+    # The time interval (in seconds) for feature extraction. For better performance, it can be modified to 15 * ONE_MINUTE or 30 * ONE_MINUTE.
     feature_interval: int = ONE_HOUR
 
 
@@ -933,7 +933,7 @@ if __name__ == "__main__":
 
     # Initialize the Config class, setting data paths, feature paths, training data paths, test data paths, etc.
     config = Config(
-        data_path=os.path.join("D:\competition_data\stage1_feather", f"type_{sn_type}"),  # Path to the raw dataset
+        data_path=os.path.join("D:/competition_data/stage1_feather", f"type_{sn_type}"),  # Path to the raw dataset
         feature_path=os.path.join(
             "D:/release_features/combined_sn_feature", f"type_{sn_type}"  # Path to the generated feature data
         ),
@@ -944,6 +944,7 @@ if __name__ == "__main__":
             "D:/release_features/test_data", f"type_{sn_type}_{test_stage}"  # Path to the generated test data
         ),
         test_data_range=test_data_range,  # Time range for test data
+        ticket_path="D:/competition_data/stage1_feather/ticket.csv",  # Path to the ticket data
     )
 
     # Initialize the FeatureFactory class to process SN files and generate features
